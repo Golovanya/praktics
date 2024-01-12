@@ -15,9 +15,10 @@ export default {
     color: white;
     padding: 1em 2em;
     border-radius: 20px;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bolder;
     cursor: pointer;
+    letter-spacing: 1px;
 }
 button:hover {
     background: white;

@@ -24,6 +24,10 @@ header{
     background-color: teal;
     text-align: center;
     margin-bottom: 2em;
+    text-align: center;
+    position: sticky;
+    top:0px;
+    z-index: 1;
 }
 
    

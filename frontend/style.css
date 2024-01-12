@@ -1,3 +1,22 @@
+@font-face {
+  font-weight: 700; 
+  font-family: HFont;
+  src: url("./src/assets/fonts/Comfortaa-Bold.ttf")
+}
+@font-face {
+  font-weight: 400; 
+  font-family: PFOnt;
+  src: url("./src/assets/fonts/AlegreyaSans-Regular.ttf")
+}
+
+
+h1,h3{
+  font-family: "HFont";
+}
+p,button  {
+  font-family: "PFont";
+}
+
 body{
   margin: 0;
   padding: 0;

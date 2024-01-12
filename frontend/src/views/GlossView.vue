@@ -1,11 +1,15 @@
 <template>
     <div class="wraper">
+      <section class="postsection">
 
-      <div v-for="post in posts" class="post">
-         <h1>{{post.term}}</h1>:
-         <p>{{ post.intr }}</p>
+        <div v-for="post in posts" class="post">
+           <h1>{{post.term}}</h1>
+           <hr>
+           <p>{{post.term}} - {{ post.intr}}</p>
+          </div>
+
+      </section>
      
-      </div>
     </div>
    </template>
    <script>
@@ -44,9 +48,35 @@
       margin: auto;
       display: flex;
     }
+    p::before{
+      background-color: teal;
+      height: 3em;
+      width: 2px;
+      display: block;
+      content: "";
+      position: absolute;
+      left: 70px
+      ;
+    }
+    .post  h1::first-letter{
+      font-size: 50px;
+      color: teal ;
+
+    }
+    .postsection{
+      display: flex;
+      flex-direction: column;
+    }
+    p{
+      margin-left: 5em;
+      font-size: 20px;
+    }
+    h1{
+      font-size: 32px;
+    }
     .post{
-      width: 30%;
-      border: 1px solid teal;
+      position: relative;
+      margin-bottom: 3em;
     }
    </style>
    
