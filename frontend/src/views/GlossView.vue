@@ -2,10 +2,10 @@
     <div class="wraper">
       <section class="postsection">
 
-        <div v-for="post in posts" class="post">
+        <div v-for="post in posts" class="post" :key="post.id">
            <h1>{{post.term}}</h1>
            <hr>
-           <p>{{post.term}} - {{ post.intr}}</p>
+           <p> <strong>{{post.term}}</strong> - {{ post.intr}}</p>
           </div>
 
       </section>
@@ -28,7 +28,7 @@
              const response = await axios.get("http://localhost:3000/terms")
              this.posts = response.data
              this.isPostLoading = false
-           },   )
+           }, 1  )
    
          } catch (e) {
            alert('Ошибка')

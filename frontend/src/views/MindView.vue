@@ -1,7 +1,5 @@
 <template >
-    <div>
         <img src="../assets/Граф.png" alt="MindMap" srcset="">
-    </div>
 </template>
 <script>
 export default {
@@ -9,5 +7,7 @@ export default {
 }
 </script>
 <style >
-    
-</style>
+   img{
+    margin: auto;
+    width: 70%;}
+    </style>
