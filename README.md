@@ -3,6 +3,7 @@
 
 ### Исспользуемые технологии
 + JS, HTML, CSS
++ Vue
 + Express
 + Docker, docker-compose
 
