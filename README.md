@@ -8,3 +8,6 @@
 + Docker, docker-compose
 
 Для запуска проекта необходимо клонировать репозиторий, выполнить docker-compose build и docker-compose up
+
+
+![Иллюстрация](https://github.com/Golovanya/praktics/blob/master/DemoDictonary.PNG)
